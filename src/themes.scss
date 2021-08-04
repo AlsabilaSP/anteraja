@@ -1,0 +1,37 @@
+@import '~@nebular/theme/styles/theming';
+@import '~@nebular/theme/styles/themes/default';
+$color-blue: #048fdd;
+$color-magenta: #e94696;
+$color-yellow: #f4bf6c;
+$color-green: #08d597;
+
+$nb-themes: nb-register-theme((
+
+  // add your variables here like:
+
+  // Sidebar
+  sidebar-background-color: $color-blue,
+  sidebar-padding: 0 1em 0 1em,
+
+  // Menu
+  menu-background-color: transparent,
+  menu-text-color: white,
+  menu-item-icon-color: white,
+  menu-item-padding: 1.5em,
+  menu-item-margin: 1em,
+  menu-item-border-radius: 30px,
+
+  menu-item-divider-color: transparent,
+  menu-item-divider-width: 0.5em,
+  
+  menu-item-hover-background-color: white,
+  menu-item-hover-text-color: $color-blue,
+  menu-item-active-background-color: white,
+  menu-item-active-text-color: $color-blue,
+  menu-submenu-item-hover-background-color: white,
+  menu-submenu-item-hover-text-color: $color-blue,
+  menu-submenu-item-active-background-color: white,
+  menu-submenu-item-active-text-color: $color-blue,
+
+
+), default, default);
