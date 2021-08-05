@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
       total: "Rp. 52.000.000,00",
       note: "Keterangan 1",
       icon: "fas fa-hand-holding-usd",
-      color: "#F29191"
+      color: "#E94696"
     },
     {
       total: "Rp. 4.300.000,00",
@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
       total: "Rp. 12.00.000,00",
       note: "Keterangan 4",
       icon: "fas fa-house-user",
-      color: "#EDEDD0"
+      color: "#F4BF6C"
     },
     {
       total: "Rp. 12.00.000,00",
@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit {
       total: "Rp. 12.00.000,00",
       note: "Keterangan 6",
       icon: "fas fa-hamburger",
-      color: "#70AF85"
+      color: "#08D597"
     },
   ]
 

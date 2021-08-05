@@ -1,5 +1,6 @@
 <div class="container">
-<div class="row p-2">
+  <div class="row p-2">
+    <h3>To be Processed</h3>
     <div class="col" style="background-color: white;">
       <canvas baseChart
             [datasets]="barChartData"
@@ -10,7 +11,8 @@
     </canvas>
     </div>
   </div>
-  <div class="row pt-2">
+  <div class="row pt-5">
+    <h3>As of Today</h3>
     <div class="col-lg-4 col-md-6 col-sm-12 p-2" *ngFor="let item of items">
       <nb-card>
         <nb-card-body>

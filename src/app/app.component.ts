@@ -23,7 +23,8 @@ export class AppComponent {
       children: [
         {
           title: 'Sub Table',
-          icon: 'arrow-right-outline'
+          icon: 'arrow-right-outline',
+          link: '/table'
         },
       ],
     }
