@@ -2,14 +2,11 @@
     display: flex !important;
     height: 0 !important;
   }
-  
-:host ::ng-deep ng2-st-tbody-custom a.ng2-smart-action.ng2-smart-action-custom-custom {
-    display: inline-block;
-    width: 50px;
-    text-align: center;
-    font-size: 1.1em;
+
+:host ::ng-deep ng2-st-tbody-edit-delete a.ng2-smart-action.ng2-smart-action-edit-edit {
+    font-size: small !important;
 }
-  
-:host ::ng-deep ng2-st-tbody-custom a.ng2-smart-action.ng2-smart-action-custom-custom:hover {
-    color: #5dcfe3;
+
+:host ::ng-deep ng2-st-tbody-edit-delete a.ng2-smart-action.ng2-smart-action-delete-delete {
+    font-size: small !important;
 }
