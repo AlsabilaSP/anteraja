@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NbThemeModule, NbLayoutModule, NbSidebarModule, NbMenuModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { MainModule } from './modules/main.module';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MainModule } from './modules/main.module';
     NbLayoutModule,
     NbEvaIconsModule,
 
-    MainModule
+    MainModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
